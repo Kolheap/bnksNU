@@ -1,4 +1,4 @@
-@media screen and (max-width: 1920px){
+
 #contents{
     width: 1900px;
     height: 944px;
@@ -43,31 +43,38 @@ margin-bottom: 5%;
     margin:auto;
     overflow: hidden;
 }
-}
-@media screen and (max-width:414px){
+
+@media screen and (max-width: 414px){
     #contents{
         max-width: 414px;
         background-color: rgb(163, 126, 126);
-        margin:auto;
+        height:1500px;
+        
     }
     #column1{
-        width: 100%;
-        float:left;
-        margin-left: 10%;
-        margin-right: auto;
-        
-        
-        padding:1%;
-        padding-top:2%;
+        width: 95%;
+        margin:auto;
+        padding-top:5%;
         }
     #column2{
-        width: 100%;
-        float:left;
-        margin-left: 10%;
-        margin-right: auto;
-        
-        
-        padding:1%;
+        width: 95%;
+        margin: auto;
         padding-top:2%;
     }
+    .imgContainer{
+        background-color: white;
+        width:85%;
+        height: 375px;
+        padding: 2%;
+        margin-left:auto;
+        margin-right:auto;
+        }
+        .textContainer{
+            background-color: white;
+            width:78%;
+            padding-left: 5%;
+            padding-right: 5%;
+            min-height: 220px;
+            margin:auto;
+        }
 }
