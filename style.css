@@ -46,9 +46,28 @@ margin-bottom: 5%;
 }
 @media screen and (max-width:414px){
     #contents{
-        width: 414px;
-        
+        max-width: 414px;
         background-color: rgb(163, 126, 126);
         margin:auto;
+    }
+    #column1{
+        width: 100%;
+        float:left;
+        margin-left: 10%;
+        margin-right: auto;
+        
+        
+        padding:1%;
+        padding-top:2%;
+        }
+    #column2{
+        width: 100%;
+        float:left;
+        margin-left: 10%;
+        margin-right: auto;
+        
+        
+        padding:1%;
+        padding-top:2%;
     }
 }
